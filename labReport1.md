@@ -15,10 +15,10 @@ This step may take some time. **Firstly,** visit [Git Bash](https://gitforwindow
 ![Image3](SetupTutorialpt4.png)
 ## Testing commands
 >And make sure to test out some useful commands like:
--`cd`
--`pwd`
--`cat <path1> <path2>`
--`ls <path>`
+- `cd`
+- `pwd`
+- `cat <path1> <path2>`
+- `ls <path>`
 >This is how it may look like in your terminal:
 >
 ![Image4](SetupTotorialpt5.png)
