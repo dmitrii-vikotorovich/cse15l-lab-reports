@@ -12,8 +12,8 @@ This step may take some time. **Firstly,** visit [Git Bash](https://gitforwindow
 ![Image2](VSCodeTerminalSSH.png)
 >Upon successfully logging in, you will see this message:
 >
-![Image3](SetupTutorial pt4.png)
+![Image3](SetupTutorialpt4.png)
 ## Testing commands
-And make sure to test out some useful commands
+And make sure to test out some useful commands!:
 >
-![Image4](SetupTotorial pt5.png)
+![Image4](SetupTotorialpt5.png)
