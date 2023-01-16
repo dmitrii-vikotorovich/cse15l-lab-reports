@@ -10,7 +10,7 @@ This step may take some time. **Firstly,** visit [Git Bash](https://gitforwindow
 >It should look like this:
 >
 ![Image2](VSCodeTerminalSSH.png)
-Upon successfully logging in, you will see this message:
+>Upon successfully logging in, you will see this message:
 ![Image3](SetupTutorial pt4.png)
-And **thirdly,** make sure to test out some useful commands:
+>And **thirdly,** make sure to test out some useful commands:
 ![Image4](SetupTotorial pt5.png)
