@@ -1,5 +1,5 @@
-# CSE15L Setup Tutorial\
-*Hello, future CSE15L students! Welcoming to my tutorial of setting up VSCode, remotely connecting to the server, and trying out new commands! Let's begin.*\
+# CSE15L Setup Tutorial
+*Hello, future CSE15L students! Welcoming to my tutorial of setting up VSCode, remotely connecting to the server, and trying out new commands! Let's begin.*
 ## Downloading VSCode:
 To download VSCode refer to this link [VSCode](https://code.visualstudio.com/) and follow the instructions.
 >As a result, when you open VSCode you will see something like this> 
