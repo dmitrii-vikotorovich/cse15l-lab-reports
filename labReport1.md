@@ -5,5 +5,6 @@ To download VSCode refer to this link [VSCode](https://code.visualstudio.com/) a
 >As a result, when you open VSCode you will see something like this 
 ![Image1](VSCode1stPage.png)
 ## Remotely Connecting
-This step may take some time. **Firstly,** visit [Git Bash](https://gitforwindows.org/) to download git bash to your OS. **Secondly,** open the terminal in VSCode and apply  the _"bash"_ command shell at the right of the terminal. then type `$ ssh cs15lwi23zz@ieng6.ucsd.edu` in the terminal. It should look like this:
+This step may take some time. **Firstly,** visit [Git Bash](https://gitforwindows.org/) to download git bash to your OS. **Secondly,** open the terminal in VSCode and apply  the _"bash"_ command shell at the right of the terminal. then type `$ ssh cs15lwi23zz@ieng6.ucsd.edu` in the terminal.
+>It should look like this:
 ![Image2](VSCodeTerminalSSH.png)
