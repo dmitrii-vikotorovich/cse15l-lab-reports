@@ -20,10 +20,10 @@ Don't worry, that's supposed to happen. Just press `yes` to continue and type in
 After successfully logging in, you are now able to test various commands that you've learned.(Notice that it shows when you logged in and how many users are currently on the server)
 ## Testing commands
 >And make sure to test out some useful commands like:
-- `cd`- hanges the current directory
-- `pwd`- prints the current working directory (full path to the current directory)
-- `cat <path1> <path2>` - shows the contents of the files
-- `ls <path>`- lists all the files in the current directory (except hidden files)
+- `cd`- changes the current directory.
+- `pwd`- prints the current working directory (full path to the current directory).
+- `cat <path1> <path2>` - shows the contents of the files.
+- `ls <path>`- lists all the files in the current directory (except hidden files).
 >This is how it may look like in your terminal:
 >
 ![Image4](TestCommandsLab1.png)
