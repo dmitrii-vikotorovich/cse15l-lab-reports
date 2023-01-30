@@ -19,7 +19,7 @@ Don't worry, that's supposed to happen. Just type `yes` in the termianal to cont
 >
 ![Image4](SetupTutorialpt4.png)
 
-After successfully logging in, you are now able to test various commands that you've learned.(Notice that it shows when you logged in and how many users are currently on the server)
+After successfully logging in, you are now able to test various commands that you've learned. (Notice that it shows when you logged in and how many users are currently on the server)
 ## Testing commands
 >And make sure to test out some useful commands like:
 - `cd`- changes the current directory.
@@ -29,7 +29,7 @@ After successfully logging in, you are now able to test various commands that yo
 >This is how it may look like in your terminal:
 >
 ![Image4](TestCommandsLab1.png)
->You can observe the effects of the differenct commands I ran, for example:
+>You can observe the effects of the different commands I ran, for example:
 >
 1. pwd - printed my working directory on the ieng6 serever.
 2. ls - listed all the files in my current directory `cse15lwiaal` the directories `perl5` and `wavelet`.
