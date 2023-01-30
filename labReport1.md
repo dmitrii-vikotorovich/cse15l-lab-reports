@@ -12,7 +12,7 @@ This step may take some time. **Firstly,** visit [Git Bash](https://gitforwindow
 ![Image2](VSCodeTerminalSSH.png)
 >**Keep in mind that you will get this message whwn trying to log in for the first time:**
 >
-![Image3](TestAuthenticity.png)
+![Image3](TheAuthenticity.png)
 Don't worry, that's supposed to happen. Just press `yes` to continue and type in your password.
 >Upon successfully logging in, you will see this message:
 >
