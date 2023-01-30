@@ -14,7 +14,7 @@ This step may take some time. **Firstly,** visit [Git Bash](https://gitforwindow
 
 ![Image3](TheAuthenticity.png)
 
-Don't worry, that's supposed to happen. Just type `yes` in the termianal to continue and then type in your password.
+Don't worry, that's supposed to happen. Just type `yes` in the terminal to continue and then type in your password.
 >Upon successfully logging in, you will see this message:
 
 ![Image4](SetupTutorialpt4.png)
