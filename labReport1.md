@@ -18,6 +18,7 @@ Don't worry, that's supposed to happen. Just type `yes` in the termianal to cont
 >Upon successfully logging in, you will see this message:
 >
 ![Image4](SetupTutorialpt4.png)
+
 After successfully logging in, you are now able to test various commands that you've learned.(Notice that it shows when you logged in and how many users are currently on the server)
 ## Testing commands
 >And make sure to test out some useful commands like:
