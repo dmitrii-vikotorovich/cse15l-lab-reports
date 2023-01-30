@@ -31,10 +31,11 @@ After successfully logging in, you are now able to test various commands that yo
 ![Image4](TestCommandsLab1.png)
 >You can observe the effects of the different commands I ran, for example:
 >
-1. pwd - printed my working directory on the ieng6 serever.
-2. ls - listed all the files in my current directory `cse15lwiaal` the directories `perl5` and `wavelet`.
-3. cd wavelet - changed the current directory to be `wavelet`.
-4. ls wavelet - listed the .class and .java files in the directory; then I compiled and ran Server.java (there was no main method in Server.java, so the output was an error).
-5. cat Server.java - simply printed the text of the file Server.java (a part of it can be seen in the screenshot).
+1. `pwd` - printed my working directory on the ieng6 serever.
+2. `ls` - listed all the files in my current directory `cse15lwiaal` the directories `perl5` and `wavelet`.
+3. `cd wavelet` - changed the current directory to be `wavelet`.
+4. `ls wavelet` - listed the .class and .java files in the directory; then I compiled and ran Server.java (there was no main method in Server.java, so the output was an error).
+5. `cat Server.java` - simply printed the text of the file Server.java (a part of it can be seen in the screenshot).
+*I caused some of the commands to print errors*, for example: `cat wavelet`caused the system to output **"wavelet is a directory"**, and you are supposed to use cat to obtain the text contents of certain files and not directories.
 ## Conclusion
 Now you know how to setup VSCode, gitBash, remotely connect to a server and utilize commands. Make sure to test out those and many other ones that you will be taught during the quarter! And don't forget to press `Ctrl+D` or type `exit` in the terminal to break the connection!
