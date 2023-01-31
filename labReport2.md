@@ -22,8 +22,9 @@ _Here I called the method `handleRequest` in `Handler` class that takes a URI as
 _By adding `How are you` to the query, nothing in my code changed, but the counter variable int num (which became **num++**) and the String word, to which **"How are you"** was concatenated._
 
 ## Part2
-**REVERSE IN PLACE method**
-Buggy Porgram:
+**REVERSE IN PLACE method:**
+
+Buggy Program:
 ```
 static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length/2; i++) {
