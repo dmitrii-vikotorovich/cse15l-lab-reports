@@ -55,5 +55,5 @@ public void testReverseInPlace() {
  
 **The symptoms after both the failiure-inducing input:**
 ![Image4](Fail.png)
-**And non failure-inducing nput:**
+**And non failure-inducing input:**
 ![Image5](NonFail.png)
