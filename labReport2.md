@@ -14,9 +14,10 @@ For this part I have coded a server StringServer, which concatenates strings to 
 > **The screenshots of the actual outputs:**
 
 ![Image2](Pt1.png)
-
+```
 _Here I called the method `handleRequest` in `Handler` class that takes a URI as an input. By adding `Hello` in the query in my code I changed the variable `word`, which I declared to be empty unless there is an input in the query. So, by the time `return word` line in my code ran, word was equal to "Hello" (word = Hello)._
-
+```
 ![Image3](PT2.png)
-
+```
 _By adding `How are you` to the query, nothing in my code changed, but the counter variable int num (which became **num++**) and the String word, to which **"How are you"** was concatenated._
+```
