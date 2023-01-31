@@ -52,8 +52,21 @@ public void testReverseInPlace() {
 	}
 ```
  The failure inducing inputs are arrays of length>1 and the bug is that the method overwrites the elements at specific indexes. Example: {1,2,3} would return {3,2,3} instead of {3,2,1} because when the third element tries to be swapped with the first element, it swaps, but the first element is already the third element, which in our case is 3. So, to fix the bug we just have store the values of the array in a specific variable in our case `tmp`.
- 
+ ***
 **The symptoms after both the failiure-inducing input:**
 ![Image4](Fail.png)
+***
 **And non failure-inducing input:**
 ![Image5](NonFail.png)
+
+**The CORRECT program that fixes all the bugs and doesn't show any symtoms:**
+```
+ static void reverseInPlace(int[] arr) {
+    int tmp=0;
+    for(int i = 0; i < arr.length/2; i++) {
+      tmp=arr[i];
+      arr[i] = arr [arr.length - i - 1];
+      arr[arr.length-i-1]=tmp;
+    }
+  }
+```
