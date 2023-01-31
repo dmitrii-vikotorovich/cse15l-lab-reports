@@ -10,6 +10,7 @@ For this part I have coded a server StringServer, which concatenates strings to 
 - _lines 14 to 18 concatenate the inputted strings to each other_
 - _line 19 returns the result_
 
+
 > **The screenshots of the actual outputs:**
 
 ![Image2](Pt1.png)
