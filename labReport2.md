@@ -22,3 +22,14 @@ _Here I called the method `handleRequest` in `Handler` class that takes a URI as
 _By adding `How are you` to the query, nothing in my code changed, but the counter variable int num (which became **num++**) and the String word, to which **"How are you"** was concatenated._
 
 ## Part2
+**REVERSE IN PLACE method**
+Buggy Porgram:
+```
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length/2; i++) {
+      arr[i]=arr[arr.length - i - 1]
+    }
+```
+```
+For reverse in place method, the input of {3} didn’t cause an issue because it’s a single element but things start to get tricky when the user adds more. The failure inducing inputs are arrays of length>1 and the bug is that the method overwrites the elements at specific indexes. Example: {1,2,3} would return {3,2,3} instead of {3,2,1} because when the third element tries to be swapped with the first element, it swaps, but the first element is already the third element, which in our case is 3. So, to fix the bug we just have store the values of the array in a specific variable in our case `tmp`.
+```
