@@ -5,10 +5,12 @@ For this part I have coded a server StringServer, which concatenates strings to 
 > **The screenshot with the code that successfully implements the task and explanation for each line:**
 
 ![Image1](ServerCode1.png)
+```
 - _line 11 checks if the path of the inputted URL contains `/add`; if **true**, then goes inside the if-statement; if **false**, returns `404 not found`_
 - _line 12 gets the string(query) after the `=` sign_
 - _lines 14 to 18 concatenate the inputted strings to each other_
 - _line 19 returns the result_
+```
 
 
 > **The screenshots of the actual outputs:**
