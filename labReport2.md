@@ -58,6 +58,7 @@ public void testReverseInPlace() {
 ***
 **And non failure-inducing input:**
 ![Image5](NonFail.png)
+***
 
 **The CORRECT program that fixes all the bugs and doesn't show any symtoms:**
 ```
