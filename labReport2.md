@@ -71,3 +71,4 @@ public void testReverseInPlace() {
     }
   }
 ```
+So, what fixes the bug here is that we replace the elements in the array, but first we allocate a variable to store the initial element.
