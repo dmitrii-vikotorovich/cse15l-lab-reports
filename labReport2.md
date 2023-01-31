@@ -24,13 +24,32 @@ _By adding `How are you` to the query, nothing in my code changed, but the count
 ## Part2
 **REVERSE IN PLACE method:**
 
-Buggy Program:
+**Buggy Program:**
 ```
 static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length/2; i++) {
       arr[i]=arr[arr.length - i - 1]
     }
 ```
+This program is **BUGGY!!!**. Let's figure put what the problem is and test it.
+
+**Not a failure inducing input:**
 ```
-For reverse in place method, the input of {3} didn’t cause an issue because it’s a single element but things start to get tricky when the user adds more. The failure inducing inputs are arrays of length>1 and the bug is that the method overwrites the elements at specific indexes. Example: {1,2,3} would return {3,2,3} instead of {3,2,1} because when the third element tries to be swapped with the first element, it swaps, but the first element is already the third element, which in our case is 3. So, to fix the bug we just have store the values of the array in a specific variable in our case `tmp`.
+public void testReverseInPlace() {
+    int[] input1 = {3};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{3}, input1);
+	}
+```
+_For reverse in place method, the input of {3} didn’t cause an issue because it’s a single element but things start to get tricky when the user adds more._
+
+**One of the failure-inducing inputs (JUnit test):**
+```
+public void testReverseInPlace() {
+    int[] input1 = {1,2,3,4,5};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{5,4,3,2,1}, input1);
+	}
+```
+ The failure inducing inputs are arrays of length>1 and the bug is that the method overwrites the elements at specific indexes. Example: {1,2,3} would return {3,2,3} instead of {3,2,1} because when the third element tries to be swapped with the first element, it swaps, but the first element is already the third element, which in our case is 3. So, to fix the bug we just have store the values of the array in a specific variable in our case `tmp`.
 ```
