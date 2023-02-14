@@ -1,5 +1,5 @@
 # CSE15L LabReport3
-Hello, today I will work with the `grep` command. I will show you 4 variations and alternate ways to use this command. For each of them I will provide to examples of using it on our **./written_2** directory. Let's begin!
+Hello, today I will work with the `grep` command. I will show you 4 variations and alternate ways to use this command. For each of them I will provide 2 examples of using it on our **./written_2** directory. Let's begin!
 ##  grep -r -l
 An alternative way to find the file that contains the string "Lucayans" in the data directory is to use `grep -r -l "Lucayans"`.
 ```
