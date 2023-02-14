@@ -17,7 +17,7 @@ written_2/travel_guides/berlitz1/WhatToIstanbul.txt
 ...and others
 ```
 Or, for example, the pattern "Mountain" can be found in these files.
-URL: [1st source](https://geekflare.com/grep-command-examples/)
+URL:(https://geekflare.com/grep-command-examples/)
 
 ## $ grep -n
 ```
@@ -34,6 +34,6 @@ written_2/travel_guides/berlitz1/WhereToFWI.txt:333:        Vacillating Volcano
 ...and others
 ```
 We can use this command to search for a pattern in all text of a given directory. Example above.
-URL: [2nd source](https://geekflare.com/grep-command-examples/)
+URL:(https://geekflare.com/grep-command-examples/)
 
 ##
