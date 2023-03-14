@@ -41,3 +41,5 @@ JoePolitzTheBest.txt  abc.txt  abcdef.txt  another-file.txt  hello
 [cs15lwi23aal@ieng6-203]:test-data:515$ ls
 JoePolitzTheBest.txt  abc.txt  abcdef.txt  another-file.txt --> there is neither hello nor absssc.txt in the current working directory.
 ```
+***
+This command `<rm>` is simple but can be a little bit tricky as shown in the examples above. And be careful not to delete all of your work by accidentally using `<rm -rf>` instead of `<rm -r>` on a full directory!
