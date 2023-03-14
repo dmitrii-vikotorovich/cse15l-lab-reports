@@ -4,7 +4,9 @@ During the lab, we learned how to speed up working with the command line, making
 ***
 ## Logging into ieng6
 ***
-In this part of the assignment I logged into into ieng6 using `ssh` command and utilizing `up` arrow.
+In this part of the assignment I logged into into ieng6 using `<ssh>` command and utilizing `<up>` arrow.
+
 ![Image1](ssh.png).
+
 **Keys pressed**: `<up>`, `<up>`, `<enter>`
 ***
