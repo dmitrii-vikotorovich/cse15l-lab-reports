@@ -40,3 +40,7 @@ In this part of the challenge I figured out that the problems with the code were
 ![Image4](editCode.png)
 
 ***
+## Running tests that now succeed
+***
+!Ima
+***
