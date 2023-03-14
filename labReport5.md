@@ -67,6 +67,19 @@ Another command that I've never heard of before is **`<ps>`**. With this command
 ```
 That's a new command that I've found interesting and that has never been discussed during lectures.
 
+## whoami
+This command **`<whoami>`** basically displays the name of the current user. For me it worked like this:
+```
+[cs15lwi23aal@ieng6-203]:test-data:526$ whoami
+cs15lwi23aal
+```
+This result could also be achieved by utilizing the environmental variable $USER and command **`<echo $USER>`**:
+```
+[cs15lwi23aal@ieng6-203]:test-data:527$ echo $USER
+cs15lwi23aal
+```
+This is also in the list of the commands I hadn't knwon befpre, but it could be pretty useful.
+
 ## shred
 Final command that I found really cool was **`<shred>`**. This command overrides the contents of a file multiple times, so the contents of the file become difficult (almost impossible) to recover. The result of using this command on **abc.txt** is below:
 
