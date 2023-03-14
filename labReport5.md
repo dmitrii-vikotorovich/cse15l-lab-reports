@@ -65,3 +65,7 @@ Another command that I've never heard of before is **`<ps>`**. With this command
  9607 pts/188  00:00:00 ps
 15688 pts/188  00:00:00 bash
 ```
+That's a new command that I've found interesting and that has never been discussed during lectures.
+
+## shred
+Final command that I found really cool was **`<shred>`**. This command overrides the contents of a file multiple times, so the contents of the file become difficult (almost impossible) to recover. The result of using this command on **abc.txt** is below:
