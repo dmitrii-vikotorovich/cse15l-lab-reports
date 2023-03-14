@@ -69,3 +69,7 @@ That's a new command that I've found interesting and that has never been discuss
 
 ## shred
 Final command that I found really cool was **`<shred>`**. This command overrides the contents of a file multiple times, so the contents of the file become difficult (almost impossible) to recover. The result of using this command on **abc.txt** is below:
+
+![Image4](shred.png)
+
+This looks very creepy but **`<shred>`** is very useful in terms of file security. And from what I've read on the internet, it's better to overwrite the data multiple times than to simply delete it. So, even if someone wants to steal the data from the file, it wouldn't be possible because now the data of the file is basically encrypted and almost impossible to recover.
