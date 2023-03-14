@@ -51,3 +51,4 @@ The chmod command lets you change the permissions of a certain file. So, what ar
 **`<+w>`** (write)
 **`<+x>`** (execute)
 Let's try to make a file executable by user. To do this, I can type chmod and +x and then the file you want to modify permissions on, for example:
+![Image3](chmod+x.png)
