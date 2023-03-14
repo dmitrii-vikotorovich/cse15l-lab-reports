@@ -18,7 +18,8 @@ $ ls
 'Screenshot (10).png'  'Screenshot (30).png'  'Screenshot (53).png'
 'Screenshot (11).png'  'Screenshot (31).png'  'Screenshot (54).png'
 ```
-If one wants to delete an empty directory the recursive (-r) flag could be used. The picture below is an example, while logged in into the **ieng6** course account:
+***
+If one wants to delete an empty directory the recursive **-r** flag could be used. The picture below is an example, while logged in into the **ieng6** course account:
 
 ![Image1](rm-r.png)
 
