@@ -20,10 +20,23 @@ In this part of the assigment I cloned the *lab7* repository that had already be
 
 ![Image2](gitClone.png)
 
-**Keys pressed**: `<Ctrl + C>` the link of repo, `<git --help>`, `<git clone + right click of mouse>` - paste link. 
+**Keys pressed**: `<Ctrl + C>` the link of repo, `<git --help>`, `<git clone + right click of mouse>` - paste link, `<enter>`
 
 ***
 ## Running tests and demonstarating they fail
-For this task, I ran `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` and `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar` org.junit.runner.JUnitCore ListExamplesTests one after another, while using bash history.
+***
+For this task, I ran `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` and `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` one after another, while using bash history.
 
 ![Image3](FirstTestFail.png)
+
+**Keys pressed**: `<up>`,`<up>`,`<up>`,`<up>`,`<up>`,`<enter>` and `<up>`,`<up>`,`<up>`,`<up>`, `<enter>`
+`javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` and `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar` command was 5 up in the search history so I used up arrow to access it. `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` was 4 up in the history so I used up arrow to access it 4 times. At the end, I got an error message, which demonstartes that test in *ListTestsExamples.java* fail.
+
+***
+## Editing code
+***
+In this part of the challenge I figured out that the problems with the code were in *ListExamples.java* on line 42, because indexes were not correct. I changed that line to be `index2+=1` instead of `index1+=1`.
+
+![Image4](editCode.png)
+
+***
