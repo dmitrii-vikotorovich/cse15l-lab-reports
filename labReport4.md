@@ -12,5 +12,14 @@ In this part of the assignment I logged into into ieng6 using `<ssh>` command an
 
 `ssh cs15lwi23aal@ieng6.ucsd.edu` was the **second** command in my search history, that's why I pressed `<up>` 2 times before entering the ecommand using `<enter>`
 
-**NOTE**: this would have taken more time if I typed my username without using the `<up>` arrow. Moreover, if I hadn't generated an `ssh` key for GitHub during the lab, I would have also been asked to type in my password, which would take up more time than needed. 
+**NOTE**: this would have taken more time if I typed my username without using the `<up>` arrow. Moreover, if I hadn't generated an `ssh` key for GitHub during the lab, I would have been asked to type in my password, which would slow the process down. 
+***
+## Cloning my fork of the repository from GitHub
+***
+In this part of the assigment I cloned the *lab7* repository that had already been forked by me by utilizing `git clone` command. I had to refresh my knowledge about git commands in the command line, so I used `git --help` command, which reminded me that  `git clone` clones the repository. So, I copied the link for the repositiry in my GitHub account and cloned the repo into my **ieng6** account.
+
+![Image2](git clone.png)
+
+**Keys pressed**: `<Ctrl + C>` the link of repo, `<git --help>`, `<git clone + right click of mouse>` - paste link. 
+
 ***
