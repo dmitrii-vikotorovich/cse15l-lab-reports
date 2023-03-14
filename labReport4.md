@@ -43,6 +43,7 @@ In this part of the challenge I figured out that the problems with the code were
 ## Running tests that now succeed
 ***
 As can be seen the test that failed before, now has no errors.
+
 ![Image1](testWork.png)
 ***
 ## Pushing
