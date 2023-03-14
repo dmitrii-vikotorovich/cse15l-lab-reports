@@ -47,6 +47,12 @@ As can be seen the test that failed before, now has no errors.
 ***
 ## Pushing
 ***
-This part confused me, because I was not able to push the changes. Bash replied with this error.
+This part confused me, because I was not able to push the changes. Commands like `git add --all` and `git commit -m` were fine, however `git push` resulted in this error message.
 
+![Image5](push.png)
+
+Despite that, I succesfully commited and pushed changes through **GitHub Desktop**. I will ask a tutor why `git push` results in an error and fix it.
 ***
+## Conclusion
+
+That's all I wanted to share with regarding working with the command line, using shortcuts, auto completion to optimize working with in bash terminal.
