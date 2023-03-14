@@ -56,4 +56,4 @@ Despite that, I succesfully commited and pushed changes through **GitHub Desktop
 ***
 ## Conclusion
 
-That's all I wanted to share with regarding working with the command line, using shortcuts, auto completion to optimize working with in bash terminal.
+That's all I wanted to share with you regarding working with the command line, using shortcuts, auto completion to optimize working with bash in the terminal.
