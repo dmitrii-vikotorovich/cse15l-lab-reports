@@ -56,3 +56,12 @@ Let's try to make a file executable by user. To do this, I can type chmod and +x
 ![Image3](chmod+x.png)
 
 As you can see in *git bash* a file, which is of **executable** type permission is colored in green. After researching this command, I have found it to be very informative and useful, because, to be honest, before I didn't know that file had three types of permission.
+
+## ps
+Another command that I've never heard of before is **`<ps>`**. With this command, you can check which process the current shell session is running at the moment. It prints useful information about programs that are running. In my case, it printed this:
+```
+[cs15lwi23aal@ieng6-203]:test-data:520$ ps
+  PID TTY          TIME CMD
+ 9607 pts/188  00:00:00 ps
+15688 pts/188  00:00:00 bash
+```
