@@ -47,10 +47,12 @@ This command **`<rm>`** is simple but can be a little bit tricky as shown in the
 ## chmod
 The chmod command lets you change the permissions of a certain file. So, what are permission to begin with? Permission state what the user can do with a file: either read, write or execute. For this command the flags are:
 ```
-**`<+r>`** (read)
-**`<+w>`** (write)
-**`<+x>`** (execute)
+<+r> (read)
+<+w> (write)
+<+x> (execute)
 ```
 Let's try to make a file executable by user. To do this, I can type chmod and +x and then the file you want to modify permissions on, for example:
 
 ![Image3](chmod+x.png)
+
+As you can see in *git bash* a file, which is of **executable** type permission is colored in green. After researching this command, I have found it to be very informative and useful, because, to be honest, before I didn't know that file had three types of permission.
