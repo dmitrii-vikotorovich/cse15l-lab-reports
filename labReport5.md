@@ -43,3 +43,11 @@ JoePolitzTheBest.txt  abc.txt  abcdef.txt  another-file.txt --> there is neither
 ```
 ***
 This command **`<rm>`** is simple but can be a little bit tricky as shown in the examples above. And be careful not to delete all of your work by accidentally using **`<rm -rf>`** instead of **`<rm -r>`** on a full directory!
+
+## chmod
+The chmod command lets you change the permissions of a certain file. So, what are permission to begin with? Permission state what the user can do with a file: either read, write or execute. For this command the flags are:
+
+**`<+r>`** (read)
+**`<+w>`** (write)
+**`<+x>`** (execute)
+Let's try to make a file executable by user. To do this, I can type chmod and +x and then the file you want to modify permissions on, for example:
