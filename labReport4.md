@@ -8,5 +8,6 @@ In this part of the assignment I logged into into ieng6 using `<ssh>` command an
 
 ![Image1](ssh.png).
 
-**Keys pressed**: `<up>`, `<up>`, `<enter>`
+**Keys pressed**: `<up>`, `<up>`, `<enter>`.
+`ssh cs15lwi23aal@ieng6.ucsd.edu` was the **second** command in my search histoty, that's why I pressed `<up>` 2 times before entering th ecommand using `<enter>`
 ***
