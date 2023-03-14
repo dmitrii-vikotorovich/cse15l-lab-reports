@@ -42,5 +42,5 @@ In this part of the challenge I figured out that the problems with the code were
 ***
 ## Running tests that now succeed
 ***
-!Ima
+![Image1](testWork.png)
 ***
