@@ -4,4 +4,4 @@ During the lab, we learned how to speed up working with the command line, making
 ***
 ## Logging into ieng6
 ***
-![]()
+![](ieng6)
