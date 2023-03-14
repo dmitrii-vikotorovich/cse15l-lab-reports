@@ -19,5 +19,5 @@ $ ls
 'Screenshot (11).png'  'Screenshot (31).png'  'Screenshot (54).png'
 ```
 If one wants to delete an empty directory the recursive (-r) flag could be used. The picture below is an example, while logged in into the **ieng6** course account:
-![Image1](rm -r.png)
+![Image1](rm-r.png)
 
