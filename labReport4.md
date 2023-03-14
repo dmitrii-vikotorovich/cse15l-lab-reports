@@ -23,3 +23,5 @@ In this part of the assigment I cloned the *lab7* repository that had already be
 **Keys pressed**: `<Ctrl + C>` the link of repo, `<git --help>`, `<git clone + right click of mouse>` - paste link. 
 
 ***
+## Running tests and demonstarating they fail
+For this task, I ran `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` and `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar` org.junit.runner.JUnitCore ListExamplesTests one after another, while using bash history
