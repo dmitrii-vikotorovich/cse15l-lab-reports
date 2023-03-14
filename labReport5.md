@@ -27,7 +27,7 @@ However, when trying to delete a directory that's not empty the **<-rf>** flag i
 
 ![Image2](rm-rf.png)
 
-Actually, I was very surprised with the results when testing `<rm -r>` on a full directory **hello** with **JoePolitzTheBest.txt** file. I expected to see some error that would say that `<rm -r>` cannot be used on **hello**; however, what happened is that **hello** directory got deleted but the file **JoePolitzTheBest.txt** was not as seen by the results of `ls` command above. But, when I use `<rm -rf>` on **hello** both the directory and it contents get deleted as shown in the code snippet below:
+Actually, I was very surprised with the results when testing `<rm -r>` on a full directory **hello** with **JoePolitzTheBest.txt** file. I expected to see some error that would say that `<rm -r>` cannot be used on **hello**; however, what happened is that **hello** directory got deleted but the file **JoePolitzTheBest.txt** was not as seen by the results of `ls` command above. But, when I use `<rm -rf>` on **hello**, both the directory and it contents get deleted as shown in the code snippet below:
 ```
 [cs15lwi23aal@ieng6-203]:test-data:508$ mkdir hello
 [cs15lwi23aal@ieng6-203]:test-data:509$ ls
@@ -39,5 +39,5 @@ JoePolitzTheBest.txt  abc.txt  abcdef.txt  another-file.txt  hello
 JoePolitzTheBest.txt  abc.txt  abcdef.txt  another-file.txt  hello
 [cs15lwi23aal@ieng6-203]:test-data:514$ rm -rf hello
 [cs15lwi23aal@ieng6-203]:test-data:515$ ls
-JoePolitzTheBest.txt  abc.txt  abcdef.txt  another-file.txt
+JoePolitzTheBest.txt  abc.txt  abcdef.txt  another-file.txt --> there is neither hello nor absssc.txt in the current working directory.
 ```
