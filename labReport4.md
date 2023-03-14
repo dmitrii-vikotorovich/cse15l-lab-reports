@@ -18,7 +18,7 @@ In this part of the assignment I logged into into ieng6 using `<ssh>` command an
 ***
 In this part of the assigment I cloned the *lab7* repository that had already been forked by me by utilizing `git clone` command. I had to refresh my knowledge about git commands in the command line, so I used `git --help` command, which reminded me that  `git clone` clones the repository. So, I copied the link for the repositiry in my GitHub account and cloned the repo into my **ieng6** account.
 
-![Image2](gitclone.png)
+![Image2](gitClone.png)
 
 **Keys pressed**: `<Ctrl + C>` the link of repo, `<git --help>`, `<git clone + right click of mouse>` - paste link. 
 
