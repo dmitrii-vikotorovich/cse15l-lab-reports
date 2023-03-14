@@ -86,3 +86,6 @@ Final command that I found really cool was **`<shred>`**. This command overrides
 ![Image4](shred.png)
 
 This looks very creepy but **`<shred>`** is very useful in terms of file security. And from what I've read on the internet, it's better to overwrite the data multiple times than to simply delete it. So, even if someone wants to steal the data from the file, it wouldn't be possible because now the data of the file is basically encrypted and almost impossible to recover.
+
+# Conclusion
+This is all I wanted to share with you about the new commands I learnt in this course. I had a great time being a part of CSE15L this quarter, I've learnt a lot of new info that I am sure will be of great help in my future career. **Thank you so much!!!**
