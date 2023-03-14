@@ -19,7 +19,8 @@ $ ls
 'Screenshot (11).png'  'Screenshot (31).png'  'Screenshot (54).png'
 ```
 ***
-If one wants to delete an empty directory the recursive **-r** flag could be used. The picture below is an example, while logged in into the **ieng6** course account:
+If one wants to delete an empty directory the recursive **<-r>** flag could be used. The picture below is an example, while logged in into the **ieng6** course account:
 
 ![Image1](rm-r.png)
 
+However, when trying to delete a directory that's not empty the **<-rf>** flag is used. Let's add a file into our `hello` directory and try to use `<rm -r>` on it and see what happens and then use `<rm -rf>`.
