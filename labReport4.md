@@ -11,4 +11,6 @@ In this part of the assignment I logged into into ieng6 using `<ssh>` command an
 **Keys pressed**: `<up>`, `<up>`, `<enter>`.
 
 `ssh cs15lwi23aal@ieng6.ucsd.edu` was the **second** command in my search history, that's why I pressed `<up>` 2 times before entering the ecommand using `<enter>`
+
+**NOTE**: this would have taken more time if I typed my username without using the `<up>` arrow. Moreover, if I hadn't generated an `ssh` key for GitHub during the lab, I would have also been asked to type in my password, which would take up more time than needed. 
 ***
